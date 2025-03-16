@@ -39,7 +39,7 @@ def rotate_image(input_path, output_folder):
         except Exception as e:
             print(f"Error saving image at {angle} degrees: {e}")
     
-    print(f"Rotation complete! All images saved to: {output_folder}")
+    print(f"Rotation complete! All images saved to: {output_folder}" )
 
 if __name__ == "__main__":
     # Set up argument parser
